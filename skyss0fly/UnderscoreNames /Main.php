@@ -8,7 +8,6 @@ use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\player\Player;
 use pocketmine\plugin\PluginBase;
-use pocketmine\utils\TextFormat;
 
 class Main extends PluginBase implements Listener {
 
@@ -22,6 +21,7 @@ class Main extends PluginBase implements Listener {
 
         if (strpos($playerName, " ") !== false) {
          $player->setDisplayName(strpos($playerName , "_"));  
+            $this->getLogger("A player has Logged in as " . $playerName . " And as a Result, their name has been changed");
         }
     }
 }
