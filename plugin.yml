@@ -1,8 +1,0 @@
-name: UnderscoreNames
-main: skyss0fly\UnderscoreNames\Main
-src-namespace-prefix: skyss0fly\UnderscoreNames
-version: 1.0.1
-api: [4.0.0, 5.0.0]
-description: "A plugin which allows players to have their name remove space and swap with an underscore"
-author: "skyss0fly"
-
