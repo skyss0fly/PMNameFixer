@@ -21,7 +21,7 @@ class Main extends PluginBase implements Listener {
         $playerName = $player->getName();
 
         if (strpos($playerName, " ") !== false) {
-         $player->setDisplayName($playerName , "_");  
+         $player->setDisplayName(strpos($playerName , "_"));  
         }
     }
 }
