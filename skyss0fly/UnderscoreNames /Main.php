@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace skyss0fly\PMNameFixer;
+namespace skyss0fly\UnderscoreNames;
 
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerJoinEvent;
